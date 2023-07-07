@@ -3,8 +3,10 @@ import Avatar from './components/Avatar';
 import Profile from './components/Profile';
 
 function AppProfile() {
+ 
   return (
     <div>
+      
       <Profile
         image="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVyc29ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
         name="Rosie Lee"
