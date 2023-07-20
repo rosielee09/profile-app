@@ -1,5 +1,5 @@
 export default function personReducer(person, action) {
-  //기존 person object받아오고, 뭘 할건지 action 정의
+  
   switch (action.type) {
     case 'updated': {
       const { prev, current } = action; //object deconstructing(action에 있는 prev,와 current값 가져옴)
