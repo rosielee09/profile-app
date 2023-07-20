@@ -21,7 +21,7 @@ export default function AppMentor() {
       <button
         onClick={() => {
           const name = prompt("what's your mentor's name?");
-          setPerson((prev) => ({
+          setPerson((person) => ({
             ...person,
             mentor: { ...person.mentor, name },
           }));
@@ -32,7 +32,7 @@ export default function AppMentor() {
       <button
         onClick={() => {
           const title = prompt("what's your mentor's title?");
-          setPerson((prev) => ({
+          setPerson((person) => ({
             ...person,
             mentor: { ...person.mentor, title },
           }));
