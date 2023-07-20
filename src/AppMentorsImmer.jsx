@@ -24,6 +24,7 @@ export default function AppMentorsImmer() {
     const name = prompt(`which mentor do you want to delete`);
     updatePerson((person) => {
       const index = person.mentors.findIndex((m) => m.name === name);
+      if(index < 0) return;
       person.mentors.splice(index, 1);
     });
   };

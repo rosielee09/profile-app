@@ -5,12 +5,12 @@ import './index.css';
 // import AppCounter from './AppCounter';
 // import AppProducts from './AppProducts';
 import reportWebVitals from './reportWebVitals';
-import AppMentorsImmer from './AppMentorsImmer';
+import AppWrap from './AppWrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppMentorsImmer />
+    <AppWrap />
   </React.StrictMode>
 );
 
